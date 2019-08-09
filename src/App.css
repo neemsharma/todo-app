@@ -49,7 +49,10 @@ footer {
 .container{
 padding:10px; 
 }
-
+.custom-navbar{
+right: 0px;
+position: absolute;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

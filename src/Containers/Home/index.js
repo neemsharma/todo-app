@@ -4,8 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from '../../layout/Header'; 
 import Footer from '../../layout/Footer'; 
-
-
+import Tile from '../../modules/Tile'
+import Sidebar from '../../modules/Sidebar';
 class Home extends React.Component{
     render(){
         return <>
@@ -13,8 +13,8 @@ class Home extends React.Component{
        <main className="main-content">
         <Container>
                 <Row>
-                <Col md={4}>sidebar</Col>
-                <Col md={8}>content</Col>
+                <Col md={2}><Sidebar/></Col>
+                <Col md={10}><Tile/><Tile/></Col>
                 </Row>
         </Container>
       </main>
