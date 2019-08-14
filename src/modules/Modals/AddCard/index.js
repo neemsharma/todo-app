@@ -19,15 +19,9 @@ const AddCard = () => {
             <Modal.Title>Add New Card</Modal.Title>
           </Modal.Header>
             <Modal.Body>
-                <AddCardForm />
+                <AddCardForm show={show} hideModal={handleClose} />
             </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button>
           </Modal.Footer>
         </Modal>
       </>

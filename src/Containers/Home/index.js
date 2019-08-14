@@ -7,6 +7,7 @@ import Footer from '../../layout/Footer';
 import Tile from '../../modules/Tile'
 import Sidebar from '../../modules/Sidebar';
 class Home extends React.Component{
+   
     render(){
         return <>
        <Header/>
